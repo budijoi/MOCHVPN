@@ -1,202 +1,316 @@
 proxies:
-- name: CTN VM 240
-  server: 104.22.4.240
-  port: 443
-  type: vmess
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  client-fingerprint: chrome
-  uuid: efbbee6b-3bdd-4535-aee0-99c1d8ddd1a2
-  servername: ctn.mangagus.biz.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: ctn.mangagus.biz.id
-- name: CTN VL 240
-  server: 104.22.4.240
-  port: 443
-  type: vless
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  client-fingerprint: chrome
-  uuid: 19a256d8-48b9-47e9-aa52-83bef7f8d022
-  servername: ctn.mangagus.biz.id
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: ctn.mangagus.biz.id
-- name: CTN TR 240
-  server: 104.22.4.240
-  port: 443
-  type: trojan
-  password: 3zMovOPE-ZHP7p7k3YZrAA
-  network: ws
-  sni: ctn.mangagus.biz.id
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  udp: true
-  ws-opts:
-    path: /trojan-ws
-    headers:
-        Host: ctn.mangagus.biz.id
-
-- name: CTN VM 206
-  server: 104.17.70.206
-  port: 443
-  type: vmess
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  client-fingerprint: chrome
-  uuid: efbbee6b-3bdd-4535-aee0-99c1d8ddd1a2
-  servername: ctn.mangagus.biz.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: ctn.mangagus.biz.id
-- name: CTN VL 206
-  server: 104.17.70.206
-  port: 443
-  type: vless
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  client-fingerprint: chrome
-  uuid: 19a256d8-48b9-47e9-aa52-83bef7f8d022
-  servername: ctn.mangagus.biz.id
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: ctn.mangagus.biz.id
-- name: CTN TR 206
-  server: 104.17.70.206
-  port: 443
-  type: trojan
-  password: 3zMovOPE-ZHP7p7k3YZrAA
-  network: ws
-  sni: ctn.mangagus.biz.id
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  udp: true
-  ws-opts:
-    path: /trojan-ws
-    headers:
-        Host: ctn.mangagus.biz.id
-- name: CTN VM 514
-  server: 172.67.5.14
-  port: 443
-  type: vmess
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  client-fingerprint: chrome
-  uuid: efbbee6b-3bdd-4535-aee0-99c1d8ddd1a2
-  servername: ctn.mangagus.biz.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: ctn.mangagus.biz.id
-- name: CTN VL 514
-  server: 172.67.5.14
-  port: 443
-  type: vless
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  client-fingerprint: chrome
-  uuid: 19a256d8-48b9-47e9-aa52-83bef7f8d022
-  servername: ctn.mangagus.biz.id
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: ctn.mangagus.biz.id
-- name: CTN TR 514
-  server: 172.67.5.14
-  port: 443
-  type: trojan
-  password: 3zMovOPE-ZHP7p7k3YZrAA
-  network: ws
-  sni: ctn.mangagus.biz.id
-  skip-cert-verify: true
-  client-fingerprint: chrome
-  udp: true
-  ws-opts:
-    path: /trojan-ws
-    headers:
-        Host: ctn.mangagus.biz.id
-- name: CTN VM QUIZ
-  server: quiz.int.vidio.com
-  port: 443
-  type: vmess
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  udp: true
-  xudp: true
-  client-fingerprint: chrome
-  uuid: efbbee6b-3bdd-4535-aee0-99c1d8ddd1a2
-  servername: ctn.mangagus.biz.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: ctn.mangagus.biz.id
-- name: CTN VL QUIZ
+- name: (ID) Alibaba 1
   server: quiz.int.vidio.com
   port: 443
   type: vless
-  alterId: 0
+  uuid: f3183b56-b14b-469e-bdff-951bf3e9eca0
   cipher: auto
   tls: true
-  skip-cert-verify: true
   udp: true
-  xudp: true
-  client-fingerprint: chrome
-  uuid: 19a256d8-48b9-47e9-aa52-83bef7f8d022
-  servername: ctn.mangagus.biz.id
+  skip-cert-verify: true
   network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
   ws-opts:
-    path: /vless
+    path: /vl=8.215.59.6=443
     headers:
-      Host: ctn.mangagus.biz.id
-- name: CTN TR QUIZ
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) PT Herza Digital Indonesia 2
   server: quiz.int.vidio.com
   port: 443
-  type: trojan
-  password: 3zMovOPE-ZHP7p7k3YZrAA
-  network: ws
-  sni: ctn.mangagus.biz.id
-  skip-cert-verify: true
-  client-fingerprint: chrome
+  type: vless
+  uuid: b5e208de-6d6f-49f1-a254-eeb760745e39
+  cipher: auto
+  tls: true
   udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
   ws-opts:
-    path: /trojan-ws
+    path: /vl=103.168.146.169=20132
     headers:
-        Host: ctn.mangagus.biz.id
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) PT Pusat Media Indonesia 3
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: bce0663a-5a79-49b1-9d8f-5392c5e2e995
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=103.6.207.108=8080
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) PT Cloud Hosting Indonesia 4
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: ed952fb4-76d7-4889-8b50-c54c276b1311
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=103.186.1.209=2053
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Cloud Teknologi Nusantara 5
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: fc3a7286-2ac5-4fe7-8403-1290b4a9f042
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=103.133.223.50=2096
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Cloud Teknologi Nusantara 6
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: f9b9d5e5-1df8-4298-8cbd-87e988deb4cf
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=103.133.223.52=2096
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Cloud Teknologi Nusantara 7
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 9c6c39c8-b3b4-47ec-99f9-d006c97789bc
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=103.133.223.51=2096
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Alibaba 8
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: df1a5224-32cf-4213-9f43-8973e4698aa9
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=147.139.245.56=443
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Alibaba 9
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 3ffaa345-b14a-478c-8f72-7ebd2bda06dc
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=147.139.243.188=587
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Akamai Connected Cloud 10
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 288615c5-0c3f-4b12-8848-a45ce399138f
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=172.232.239.151=587
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Akamai Connected Cloud 11
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 19d8ec6e-904a-436f-b838-9bf6cda1989e
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=172.232.239.249=587
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Akamai Connected Cloud 12
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 1a9edc0a-bb88-4895-a3d7-5ebe822b3353
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=172.232.239.175=587
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Akamai Connected Cloud 13
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 6637bff7-37c8-4aeb-950a-4ac8e5eb473b
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=172.232.239.134=587
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Akamai Connected Cloud 14
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: e117be57-1d55-429c-b25f-7b927d45d908
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=172.232.239.147=587
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Linknet Fastnet 15
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: d13e768b-f8d5-4a5c-9f32-3e6ed5562c78
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=111.95.40.14=32414
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Kaopu Cloud 16
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: d11d5e26-9c28-4ad1-9c69-b89458117076
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=38.60.171.111=587
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Tencent cloud computing 17
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 16999076-5433-4a91-b9be-134dc0eaf4e8
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=43.133.145.156=53136
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) PT Beon Multimedia 18
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: ceb52765-3bb3-441c-b377-325776f2c636
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=101.50.0.114=8443
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Rumahweb 19
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: cd82cd80-cdc5-4e6c-96a1-595708b949df
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=203.194.112.119=2053
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Google LLC 20
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: ba9db13b-9fe8-4779-89ae-0730f00d869c
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=35.219.50.99=443
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
+- name: (ID) Google LLC 21
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 1898ebf9-ab2e-444e-ab1c-4e221dbb1ef6
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.vip.c-stuff.net
+  ws-opts:
+    path: /vl=35.219.15.90=443
+    headers:
+      Host: quiz.int.vidio.com.vip.c-stuff.net
