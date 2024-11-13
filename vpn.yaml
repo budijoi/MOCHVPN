@@ -1,0 +1,257 @@
+proxies:
+- name: SGDO 🇸🇬
+  server: 104.22.4.240
+  port: 443
+  type: vless
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  uuid: 26020b49-ec17-4228-9501-c85449d39a07
+  servername: sg1.servercepat.net
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: sg1.servercepat.net
+
+- name: CLOUDHOST 🇮🇩
+  server: 104.22.4.240
+  port: 443
+  type: vless
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  uuid: e6ab22b5-0903-4b50-8d7e-2757b86a6201
+  servername: id-4.rzs.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: id-4.rzs.my.id
+
+- name: ATLANTIC 🇸🇬
+  server: 104.22.4.240
+  port: 443
+  type: trojan
+  password: 49e51087
+  network: ws
+  sni: altc.airi.buzz
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: altc.airi.buzz
+
+- name: BIZNET VM 🇮🇩
+  server: 104.22.4.240
+  port: 443
+  type: vmess
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  client-fingerprint: chrome
+  uuid: 78ce7dda-aad9-4589-ad02-d975db6c835c
+  servername: biz.cfw.icu
+  network: ws
+  ws-opts:
+    path: /lpZLD7k3l04aIyzZAjOXF3HKI0
+    headers:
+      Host: biz.cfw.icu
+- name: BIZNET VL 🇮🇩
+  server: 104.22.4.240
+  port: 443
+  type: vless
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  uuid: 327be850-7f61-479b-bc96-6acf53530b9d
+  servername: biz.cfw.icu
+  network: ws
+  ws-opts:
+    path: /8l1aWsOFKW1nCB7ZAjOXF3HKI0
+    headers:
+      Host: biz.cfw.icu
+- name: BIZNET TR 🇮🇩
+  server: 104.22.4.240
+  port: 443
+  type: trojan
+  password: 327be850-7f61-479b-bc96-6acf53530b9d
+  network: ws
+  sni: biz.cfw.icu
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  udp: true
+  ws-opts:
+    path: /kB1nQYPcBCslZAjOXF3HKI0
+    headers:
+        Host: biz.cfw.icu
+
+- name: CITRA 🇮🇩
+  server: 104.22.4.240
+  port: 443
+  type: trojan
+  password: 83324dac-05d4-4623-928c-3bc8a6d07ad8
+  network: ws
+  sni: id4.servercepat.net
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: id4.servercepat.net
+
+- name: CTN VM 🇮🇩
+  server: 104.22.4.240
+  port: 443
+  type: vmess
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  uuid: efbbee6b-3bdd-4535-aee0-99c1d8ddd1a2
+  servername: ctn.mangagus.biz.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: ctn.mangagus.biz.id
+- name: CTN VL 🇮🇩
+  server: 104.22.4.240
+  port: 443
+  type: vless
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  uuid: 19a256d8-48b9-47e9-aa52-83bef7f8d022
+  servername: ctn.mangagus.biz.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: ctn.mangagus.biz.id
+- name: CTN TR 🇮🇩
+  server: 104.22.4.240
+  port: 443
+  type: trojan
+  password: 3zMovOPE-ZHP7p7k3YZrAA
+  network: ws
+  sni: ctn.mangagus.biz.id
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: ctn.mangagus.biz.id
+
+- name: DEWAWEB 🇮🇩
+  server: 104.22.4.240
+  port: 443
+  type: vless
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  client-fingerprint: chrome
+  uuid: 0e49cd27-6938-4036-93b6-1f2933050e32
+  servername: id2.servercepat.net
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: id2.servercepat.net
+
+- name: UNINET 🇮🇩
+  server: 104.22.4.240
+  port: 443
+  type: vless
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  client-fingerprint: chrome
+  uuid: 7b19fb15-c530-45ac-9a48-88c7b4132ca1
+  servername: id1.servercepat.net
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: id1.servercepat.net
+
+- name: SDC 🇮🇩
+  server: 104.22.4.240
+  port: 443
+  type: vless
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  uuid: bbd9b125-1883-4575-8359-7eeb75f7f9bc
+  servername: id-8.rzs.my.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: id-8.rzs.my.id
+
+- name: NUSA 🇮🇩
+  server: 104.22.4.240
+  port: 443
+  type: trojan
+  password: aa14ba9a-7aa4-4640-bc16-d6ced8a34e98
+  network: ws
+  sni: nusa-1thn.eregsi.uk.to
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  udp: true
+  ws-opts:
+    path: /K0SjDQ2txwKEPcfDrAtImpth
+    headers:
+        Host: nusa-1thn.eregsi.uk.to
+
+- name: IKD 🇮🇩
+  server: 104.22.4.240
+  port: 443
+  type: vmess
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  client-fingerprint: chrome
+  uuid: 392b7ce8-d513-4d05-81af-1ce6b6d8cd9d
+  servername: id6.servercepat.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id6.servercepat.net
