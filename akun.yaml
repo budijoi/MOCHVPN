@@ -13,7 +13,7 @@ proxies:
   ws-opts:
     path: /vl=8.215.59.6=443
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 PT Herza 2
   server: 104.22.4.240
   port: 443
@@ -28,7 +28,7 @@ proxies:
   ws-opts:
     path: /vl=103.168.146.169=20132
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 Pusat Media 3
   server: 104.22.4.240
   port: 443
@@ -43,7 +43,7 @@ proxies:
   ws-opts:
     path: /vl=103.6.207.108=8080
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 CloudHosting 4
   server: 104.22.4.240
   port: 443
@@ -58,7 +58,7 @@ proxies:
   ws-opts:
     path: /vl=103.186.1.209=2053
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 CTN 5
   server: 104.22.4.240
   port: 443
@@ -73,7 +73,7 @@ proxies:
   ws-opts:
     path: /vl=103.133.223.50=2096
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 CTN 6
   server: 104.22.4.240
   port: 443
@@ -88,7 +88,7 @@ proxies:
   ws-opts:
     path: /vl=103.133.223.52=2096
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 CTN 7
   server: 104.22.4.240
   port: 443
@@ -103,7 +103,7 @@ proxies:
   ws-opts:
     path: /vl=103.133.223.51=2096
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 Alibaba 8
   server: 104.22.4.240
   port: 443
@@ -118,7 +118,7 @@ proxies:
   ws-opts:
     path: /vl=147.139.245.56=443
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 Alibaba 9
   server: 104.22.4.240
   port: 443
@@ -133,7 +133,7 @@ proxies:
   ws-opts:
     path: /vl=147.139.243.188=587
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 Akamai 10
   server: 104.22.4.240
   port: 443
@@ -148,7 +148,7 @@ proxies:
   ws-opts:
     path: /vl=172.232.239.151=587
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 Akamai 11
   server: 104.22.4.240
   port: 443
@@ -163,7 +163,7 @@ proxies:
   ws-opts:
     path: /vl=172.232.239.249=587
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 Akamai 12
   server: 104.22.4.240
   port: 443
@@ -178,7 +178,7 @@ proxies:
   ws-opts:
     path: /vl=172.232.239.175=587
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 Akamai 13
   server: 104.22.4.240
   port: 443
@@ -193,7 +193,7 @@ proxies:
   ws-opts:
     path: /vl=172.232.239.134=587
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 Akamai 14
   server: 104.22.4.240
   port: 443
@@ -208,7 +208,7 @@ proxies:
   ws-opts:
     path: /vl=172.232.239.147=587
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 Linknet 15
   server: 104.22.4.240
   port: 443
@@ -223,7 +223,7 @@ proxies:
   ws-opts:
     path: /vl=111.95.40.14=32414
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 Kaopu 16
   server: 104.22.4.240
   port: 443
@@ -238,7 +238,7 @@ proxies:
   ws-opts:
     path: /vl=38.60.171.111=587
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 Tencent 17
   server: 104.22.4.240
   port: 443
@@ -253,7 +253,7 @@ proxies:
   ws-opts:
     path: /vl=43.133.145.156=53136
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 Beon 18
   server: 104.22.4.240
   port: 443
@@ -268,7 +268,7 @@ proxies:
   ws-opts:
     path: /vl=101.50.0.114=8443
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 Rumahweb 19
   server: 104.22.4.240
   port: 443
@@ -283,7 +283,7 @@ proxies:
   ws-opts:
     path: /vl=203.194.112.119=2053
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 Google LLC 20
   server: 104.22.4.240
   port: 443
@@ -298,7 +298,7 @@ proxies:
   ws-opts:
     path: /vl=35.219.50.99=443
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
 - name:  🇮🇩 Google LLC 21
   server: 104.22.4.240
   port: 443
@@ -313,4 +313,4 @@ proxies:
   ws-opts:
     path: /vl=35.219.15.90=443
     headers:
-      Host: .vip.c-stuff.net
+      Host: vip.c-stuff.net
