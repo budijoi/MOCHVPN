@@ -9,7 +9,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=8.215.59.6=443
     headers:
@@ -24,7 +24,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=103.168.146.169=20132
     headers:
@@ -39,7 +39,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=103.6.207.108=8080
     headers:
@@ -54,7 +54,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=103.186.1.209=2053
     headers:
@@ -69,7 +69,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=103.133.223.50=2096
     headers:
@@ -84,7 +84,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=103.133.223.52=2096
     headers:
@@ -99,7 +99,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=103.133.223.51=2096
     headers:
@@ -114,7 +114,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=147.139.245.56=443
     headers:
@@ -129,7 +129,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=147.139.243.188=587
     headers:
@@ -144,7 +144,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=172.232.239.151=587
     headers:
@@ -159,7 +159,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=172.232.239.249=587
     headers:
@@ -174,7 +174,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=172.232.239.175=587
     headers:
@@ -189,7 +189,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=172.232.239.134=587
     headers:
@@ -204,7 +204,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=172.232.239.147=587
     headers:
@@ -219,7 +219,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=111.95.40.14=32414
     headers:
@@ -234,7 +234,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=38.60.171.111=587
     headers:
@@ -249,7 +249,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=43.133.145.156=53136
     headers:
@@ -264,7 +264,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=101.50.0.114=8443
     headers:
@@ -279,7 +279,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=203.194.112.119=2053
     headers:
@@ -294,7 +294,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=35.219.50.99=443
     headers:
@@ -309,7 +309,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   network: ws
-  servername: .vip.c-stuff.net
+  servername: vip.c-stuff.net
   ws-opts:
     path: /vl=35.219.15.90=443
     headers:
