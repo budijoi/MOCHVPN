@@ -1,0 +1,202 @@
+proxies:
+- name: CTN VM 240
+  server: 104.22.4.240
+  port: 443
+  type: vmess
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  uuid: efbbee6b-3bdd-4535-aee0-99c1d8ddd1a2
+  servername: ctn.mangagus.biz.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: ctn.mangagus.biz.id
+- name: CTN VL 240
+  server: 104.22.4.240
+  port: 443
+  type: vless
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  uuid: 19a256d8-48b9-47e9-aa52-83bef7f8d022
+  servername: ctn.mangagus.biz.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: ctn.mangagus.biz.id
+- name: CTN TR 240
+  server: 104.22.4.240
+  port: 443
+  type: trojan
+  password: 3zMovOPE-ZHP7p7k3YZrAA
+  network: ws
+  sni: ctn.mangagus.biz.id
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: ctn.mangagus.biz.id
+
+- name: CTN VM 206
+  server: 104.17.70.206
+  port: 443
+  type: vmess
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  uuid: efbbee6b-3bdd-4535-aee0-99c1d8ddd1a2
+  servername: ctn.mangagus.biz.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: ctn.mangagus.biz.id
+- name: CTN VL 206
+  server: 104.17.70.206
+  port: 443
+  type: vless
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  uuid: 19a256d8-48b9-47e9-aa52-83bef7f8d022
+  servername: ctn.mangagus.biz.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: ctn.mangagus.biz.id
+- name: CTN TR 206
+  server: 104.17.70.206
+  port: 443
+  type: trojan
+  password: 3zMovOPE-ZHP7p7k3YZrAA
+  network: ws
+  sni: ctn.mangagus.biz.id
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: ctn.mangagus.biz.id
+- name: CTN VM 514
+  server: 172.67.5.14
+  port: 443
+  type: vmess
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  uuid: efbbee6b-3bdd-4535-aee0-99c1d8ddd1a2
+  servername: ctn.mangagus.biz.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: ctn.mangagus.biz.id
+- name: CTN VL 514
+  server: 172.67.5.14
+  port: 443
+  type: vless
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  uuid: 19a256d8-48b9-47e9-aa52-83bef7f8d022
+  servername: ctn.mangagus.biz.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: ctn.mangagus.biz.id
+- name: CTN TR 514
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 3zMovOPE-ZHP7p7k3YZrAA
+  network: ws
+  sni: ctn.mangagus.biz.id
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: ctn.mangagus.biz.id
+- name: CTN VM QUIZ
+  server: quiz.int.vidio.com
+  port: 443
+  type: vmess
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  uuid: efbbee6b-3bdd-4535-aee0-99c1d8ddd1a2
+  servername: ctn.mangagus.biz.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: ctn.mangagus.biz.id
+- name: CTN VL QUIZ
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  uuid: 19a256d8-48b9-47e9-aa52-83bef7f8d022
+  servername: ctn.mangagus.biz.id
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: ctn.mangagus.biz.id
+- name: CTN TR QUIZ
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: 3zMovOPE-ZHP7p7k3YZrAA
+  network: ws
+  sni: ctn.mangagus.biz.id
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: ctn.mangagus.biz.id
