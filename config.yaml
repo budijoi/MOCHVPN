@@ -1,0 +1,15 @@
+Tambahkan pada bagian proxy-providers di dalam config.yaml
+=============================≈===============================
+proxy-providers:
+  GIT: #namabebas
+    type: http #modeonline
+    url: "https://raw.githubusercontent.com/budijoi/MOCHVPN/main/akun.yaml" #url file akun.yaml yang akan di panggil
+    path: "./proxy_provider/AKUN-GIT.yaml" #lokasi penyimpanan file
+    interval: 300 #5 menit
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+=============================≈===============================
+
+
